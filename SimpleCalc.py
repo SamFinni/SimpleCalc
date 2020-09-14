@@ -1,9 +1,9 @@
 def Add(a, b):
 	return a + b
 def TestAdd():
-	assert Add(12, 7) == 19
-	assert Add(5, 36) == 41
-	assert Add(61, 532) == 593
+	assert Add(12.0, 7.0) == 19
+	assert Add(5.0, 36.0) == 41
+	assert Add(61.0, 532.0) == 593
 
 def Subtract(a, b):
 	return "TODO";
@@ -17,12 +17,12 @@ def Divide(a, b):
 
 # start execution #
 
-testMode = True
-#testMode = False
+#testMode = True
+testMode = False
 
 if (not testMode):
-	num1 = input("Enter a number: ")
-	num2 = input("Enter a second number: ")
+	num1 = float(input("Enter a number: "))
+	num2 = float(input("Enter a second number: "))
 	op = input("Choose an operation (+, -, *, /): ")
 
 	result = "Your answer is: "
