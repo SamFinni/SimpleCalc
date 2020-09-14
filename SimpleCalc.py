@@ -1,9 +1,9 @@
 def Add(a, b):
 	return a + b
 def TestAdd():
-	assert Add(12.0, 7.0) == 19
-	assert Add(5.0, 36.0) == 41
-	assert Add(61.0, 532.0) == 593
+	assert Add(12.0, 7.0) == 19.0
+	assert Add(5.0, 36.0) == 41.0
+	assert Add(61.0, 532.0) == 593.0
 
 def Subtract(a, b):
 	return "TODO";
