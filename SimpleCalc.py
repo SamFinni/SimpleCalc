@@ -6,13 +6,17 @@ def TestAdd():
 	assert Add(61.0, 532.0) == 593.0
 
 def Subtract(a, b):
-	return "TODO";
+	return a - b
+def TestSubtract():
+	assert Subtract(12.0, 7.0) == 5.0
+	assert Subtract(5.0, 36.0) == -31.0
+	assert Subtract(61.0, 532.0) == -471.0
 
 def Multiply(a, b):
-	return "TODO";
+	return "TODO"
 
 def Divide(a, b):
-	return "TODO";
+	return "TODO"
 
 
 # start execution #
@@ -41,5 +45,6 @@ if (not testMode):
 	print(result)
 else:
 	TestAdd()
+	TestSubtract()
 
 	print("All tests passed")
