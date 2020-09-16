@@ -24,15 +24,15 @@ def TestMultiply():
 def Divide(a, b):
 	return a / b
 def TestDivide():
-	assert math.isclose(Divide(12.0, 7.4), 1.6216)
-	assert math.isclose(Divide(5.0, 36.0), 0.1389)
-	assert math.isclose(Divide(61.0, 532.0), 0.1147)
+	assert math.isclose(Divide(144.5, 2.5), 57.8)
+	assert math.isclose(Divide(5.0, 40.0), 0.125)
+	assert math.isclose(Divide(61.0, 125.0), 0.488)
 
 
 # start execution #
 
-#testMode = True
-testMode = False
+testMode = True
+#testMode = False
 
 if (not testMode):
 	num1 = float(input("Enter a number: "))
@@ -57,5 +57,6 @@ else:
 	TestAdd()
 	TestSubtract()
 	TestMultiply()
+	TestDivide()
 
 	print("All tests passed")
