@@ -31,8 +31,8 @@ def TestDivide():
 
 # start execution #
 
-testMode = True
-#testMode = False
+#testMode = True
+testMode = False
 
 if (not testMode):
 	num1 = float(input("Enter a number: "))
